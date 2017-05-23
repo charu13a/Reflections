@@ -1,0 +1,2 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: When we initialize a repository, a .git file is created which can track all future commits.
