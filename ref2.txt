@@ -8,3 +8,5 @@ Q: What are some situations when branches would be helpful in keeping your histo
 A: Branches can be useful if we want to maintain alternate versions of the same program or when we want to add some experimental features to our program which we are not sure we want in the final version. 
 Q: How do the diagrams help you visualize the branch structure?
 A: Diagrams help us visualize the tree like structure where we can see how the branches are arranged and which commits lie on which branch and the point where a branch diverges.
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: Merging two branches together combines all the changes made in the two branches and adds it to the current checked out branch. In the diagram, the heads of both branches point to the new commit since both commits can be reached from the new commit and the checked out branch label also points to the most recent commit.
