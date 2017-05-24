@@ -10,3 +10,6 @@ Q: How do the diagrams help you visualize the branch structure?
 A: Diagrams help us visualize the tree like structure where we can see how the branches are arranged and which commits lie on which branch and the point where a branch diverges.
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A: Merging two branches together combines all the changes made in the two branches and adds it to the current checked out branch. In the diagram, the heads of both branches point to the new commit since both commits can be reached from the new commit and the checked out branch label also points to the most recent commit.
+Q:What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+A:Pros: By always doing merging automatically, we can compare similar lines of code and keep the most efficient one in our final solution.
+Cons: Tedious and time consuming. We should understand all the changes made by the commits.
