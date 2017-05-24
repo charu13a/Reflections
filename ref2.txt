@@ -4,3 +4,5 @@ Q:How is the staging area different from the working directory and the repositor
 A: In staging area, changes can be made to multiple files and once we are satisfied, we can commit them to the repository. The repository and the directory store only permanent files while staging area gives more freedom.
 Q: How can you use the staging area to make sure you have one commit per logical change?
 A: By adding only one file in the staging area such that git diff gives only one logical change, and then commiting.
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Branches can be useful if we want to maintain alternate versions of the same program or when we want to add some experimental features to our program which we are not sure we want in the final version. 
