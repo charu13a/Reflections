@@ -11,3 +11,5 @@ What is the benefit of having a copy of the last known state of the remote store
 If we are working offline, we can use git diff to see how much we have divereged from the previous version and we can run git status to see if our version is out of sync/ahead/behind or up to date with the remote version.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 We could collaborate by breaking the task into functions and putting all the functions together in the end. Modifications required could be communicated via email and we could host the files on a server such as google drive which would contain the master version.
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+We would make changes in a separate branch so that we can create pull request and only push the changes to master when we get approval from other collaborators.
